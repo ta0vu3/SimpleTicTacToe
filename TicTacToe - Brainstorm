@@ -1,0 +1,19 @@
+TicTacToe Outline / Feature Ideas
+
+GUI board (Michelle has no current idea about Java GUI)
+
+3x3 editable array (?) to store user values
+	after each turn, compare the editable array to the winning-array formats
+	announce winner (or tie game) and keep track
+		Found: https://www.quora.com/What-is-the-number-of-possible-ways-to-win-a-3*3-game-of-tic-tac-toe
+		There are 255168 possible game of Tic-tac-toe excluding symmetry. The first player wins 131184 of 
+		these, the second player wins 77904 games and the remaining 46080 are drawn.
+
+Usernames - users will be able to create a name that will hold their score
+	and determine current turn and user's icon (X or O)
+	-Usernames would be a class with keyboard input
+	
+Message panel - displays user's turn and winner in the end
+	-Relatively simple check the current board against the winner/tie boards
+	-Loop that if the board is not full, it will display alternating usernames
+		-If the board is full, it will display "Winner=<username>" or "Tie Game"
