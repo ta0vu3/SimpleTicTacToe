@@ -1,0 +1,76 @@
+ASCII UML Diagram
+
+__________________________________________
+|Class Player
+|__________________________________________
+|player1 = 'x' : char
+|player2 = 'o' : char
+|__________________________________________
+|Check board for wins 
+|	and displays 
+|__________________________________________
+
+
+
+__________________________________________
+|Class JPanel
+|__________________________________________
+|(instance variables)
+|__________________________________________
+|Display game board in center region
+|__________________________________________
+
+
+
+__________________________________________
+|Class Jbutton
+|__________________________________________
+|Board : array(3x3x8) 
+|	stores possible
+|	wins and tie if board is full
+|__________________________________________
+|Action method - 
+|	player clicks [left, middle, right] 
+|		[top, middle, bottom]
+|	action method will add the icon to 
+|		the box
+|End method - 
+|	button to end the class
+|__________________________________________
+
+
+
+__________________________________________
+|Class Jframe (base class for all j* 
+|	classes included here)
+|__________________________________________
+|Size of game (3x3) : Array
+|__________________________________________
+|Set gameSize
+|Set title
+|Set layout (jmenu bar)
+|__________________________________________
+
+
+
+__________________________________________
+|Class Jlabel (java.awt package)
+|__________________________________________
+|(instance variables)
+|__________________________________________
+|Button color change method
+|__________________________________________
+
+
+
+__________________________________________
+|Class BorderLayoutJFrame
+|__________________________________________
+|(instance variables)
+|__________________________________________
+|Title: String
+|	Display message on North region
+|	player turn or win/tie result
+|__________________________________________
+
+
